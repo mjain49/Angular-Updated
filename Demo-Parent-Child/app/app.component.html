@@ -1,0 +1,7 @@
+﻿<h1>Welcome to Angular 8</h1>
+
+<add-comp [inchild]="empName" (notify)="getDataFromChild($event)"></add-comp>
+
+<show-emp [inchild1]="empName1" (notify)="getDataFromChild($event)"></show-emp>
+
+Data From Child----{{message}}
